@@ -3,9 +3,9 @@
 mkdir build
 cd build
 cmake ..
-make benchmark
+make picoOS
 
-copy benchmark.uf2 to USB pico
+copy picoOS.uf2 to USB pico
 ```
 
 ## running 
