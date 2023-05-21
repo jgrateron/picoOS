@@ -17,7 +17,7 @@ add_executable(picoOS
 )
 
 # Add pico_stdlib library which aggregates commonly used features
-target_link_libraries(picoOS pico_stdlib pico_multicore hardware_adc)
+target_link_libraries(picoOS pico_stdlib pico_multicore hardware_adc hardware_i2c)
 
 pico_enable_stdio_usb(picoOS 1)
 pico_enable_stdio_uart(picoOS 0)
